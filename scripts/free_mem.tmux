@@ -1,2 +1,2 @@
 #!/bin/bash
-free -h | awk  '/Mem:/{print $7}'
+free -h | awk  '/Mem:/{print $4}'
